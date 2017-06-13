@@ -1,0 +1,11 @@
+dnase
+scATAC
+tmp
+logs
+env
+.snakemake
+.DS_Store
+data
+analysis
+results
+

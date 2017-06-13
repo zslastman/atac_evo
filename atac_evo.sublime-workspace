@@ -1,0 +1,2155 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"results",
+				"resultsfolder"
+			],
+			[
+				"fract",
+				"fraction_1"
+			],
+			[
+				"stage",
+				"stage_2"
+			],
+			[
+				"fraction",
+				"fraction_2"
+			],
+			[
+				"paste",
+				"paste0"
+			],
+			[
+				"comple",
+				"complete_flatribodata"
+			],
+			[
+				"kmean",
+				"kmeans_tbl"
+			],
+			[
+				"fraction_",
+				"fraction_combs"
+			],
+			[
+				"V",
+				"Var2"
+			],
+			[
+				"as.data.",
+				"as.data.frame\t{base}"
+			],
+			[
+				"compl",
+				"complete_flatribodata"
+			],
+			[
+				"filename",
+				"filename_3d"
+			],
+			[
+				"stop",
+				"stophere\tstophere"
+			],
+			[
+				"install_",
+				"install_or_load\t(Rprofile.R)"
+			],
+			[
+				"test",
+				"testPlatformEquivalence\t{base}"
+			],
+			[
+				"project",
+				"projectlib"
+			],
+			[
+				"proj",
+				"projectlib"
+			],
+			[
+				"combin",
+				"combine_two_grange"
+			],
+			[
+				"bed_",
+				"bed_end"
+			],
+			[
+				"ass",
+				"assignment"
+			],
+			[
+				"geom_line",
+				"geom_linerange\t{ggplot2}"
+			],
+			[
+				"scale_x_d",
+				"scale_x_discrete\t{ggplot2}"
+			],
+			[
+				"isv",
+				"isvalid"
+			],
+			[
+				"laptop",
+				"laptopname"
+			],
+			[
+				"data",
+				"dataID"
+			],
+			[
+				"thresh",
+				"threshold_i"
+			],
+			[
+				"thres",
+				"threshold_i"
+			],
+			[
+				"thresho",
+				"threshold"
+			],
+			[
+				"thr",
+				"threshold"
+			],
+			[
+				"threshold",
+				"threshold_i"
+			],
+			[
+				"trhe",
+				"threshold"
+			],
+			[
+				"datafile",
+				"datafiletbl"
+			],
+			[
+				"is_in",
+				"is_insight"
+			],
+			[
+				"data_sou",
+				"data_source"
+			],
+			[
+				"data_sour",
+				"data_source_i"
+			],
+			[
+				"scale_fill_",
+				"scale_fill_discrete\t{ggplot2}"
+			],
+			[
+				"E.",
+				"E.A._stderr"
+			],
+			[
+				"insigh",
+				"insight_data"
+			],
+			[
+				"cluster_ass",
+				"cluster_assignment_file\t(examine_clusters.R)"
+			],
+			[
+				"pas",
+				"paste0\t{base}"
+			],
+			[
+				"posi",
+				"position_dodge"
+			],
+			[
+				"pdb",
+				"pdb.set_trace"
+			],
+			[
+				"with",
+				"with\tkeyword"
+			],
+			[
+				"de",
+				"defs\tMethod"
+			],
+			[
+				"qtl",
+				"qtlconstructs"
+			],
+			[
+				"p.",
+				"p.adjust"
+			],
+			[
+				"coord_",
+				"coord_flip\t(thesis_rna_mot_plots.R)"
+			],
+			[
+				"all",
+				"allmotseffdf"
+			],
+			[
+				"wrod",
+				"wordScanSeq"
+			],
+			[
+				"shuffp",
+				"shuffprevalence"
+			],
+			[
+				"cent",
+				"centrimo_bin_location"
+			],
+			[
+				"positi",
+				"position"
+			],
+			[
+				"pre",
+				"prevalences"
+			],
+			[
+				"reverse",
+				"reverseComplement"
+			],
+			[
+				"trans",
+				"transcripts"
+			],
+			[
+				"Gr",
+				"GR2DT"
+			],
+			[
+				"Moti",
+				"MotifCommonName"
+			],
+			[
+				"readable",
+				"readablenames"
+			],
+			[
+				"MOt",
+				"MotifName"
+			],
+			[
+				"centrimo_bin_",
+				"centrimo_bin_width\t(thesis_rna_mot_plots.R)"
+			],
+			[
+				"centrimo",
+				"centrimo_motifdb"
+			],
+			[
+				"Pos",
+				"Positioned\t(load_3prime_mem_motifs.R)"
+			],
+			[
+				"readabl",
+				"readable_name\t(thesis_rna_mot_plots.R)"
+			],
+			[
+				"M_",
+				"M031_0.6"
+			],
+			[
+				"GR2",
+				"GR2Seq\t(thesis_rna_mot_plots.R)"
+			],
+			[
+				"feature",
+				"feature=motfeatcols\t(calculate_snpmap_enrichments.R)"
+			],
+			[
+				"matching",
+				"matchinggenes"
+			],
+			[
+				"cloud_",
+				"cloud_count\t(load_eqtl_data.R)"
+			],
+			[
+				"High",
+				"highQuality"
+			],
+			[
+				"embryoni",
+				"embryonic_stage"
+			],
+			[
+				"pfm2",
+				"pfm2seqlogo\t(pwmEnrichmentPlots.R)"
+			],
+			[
+				"coord",
+				"coord_flip\t(Fig_3h_4b_5a_c_enrichments_final.R)"
+			],
+			[
+				"closese",
+				"closest_feature_type"
+			],
+			[
+				"peak",
+				"peakshit"
+			],
+			[
+				"total",
+				"totalnotas"
+			],
+			[
+				"tagseq",
+				"tagseq_peaks"
+			],
+			[
+				"AAA",
+				"AAACSRA\t(load_3prime_mem_motifs.R)"
+			],
+			[
+				"dreme",
+				"drememottable"
+			],
+			[
+				"Motif",
+				"MotifName"
+			],
+			[
+				"genome",
+				"genomeScans"
+			],
+			[
+				"countregion",
+				"countregionwidth"
+			],
+			[
+				"centrimo_bin",
+				"centrimo_bin_location\t(load_3prime_mem_motifs.R)"
+			],
+			[
+				"scale_color",
+				"scale_color_manual\t(Fig_3h_4b_5a_c_enrichments_final.R)"
+			],
+			[
+				"polya_rea",
+				"polya_read_count_10\t(utr_length_analysisPlots.R)"
+			],
+			[
+				"polya_re",
+				"polya_read_count_6\t(utr_length_analysisPlots.R)"
+			],
+			[
+				"tagseq_peaks",
+				"tagseq_peaks\t(utr_length_analysisPlots.R)"
+			],
+			[
+				"isPeak",
+				"isPeakSpecificEqtl"
+			],
+			[
+				"timep",
+				"time_point_or_stage"
+			],
+			[
+				"embryon",
+				"embryonic_stage"
+			],
+			[
+				"ChIP",
+				"ChIP_Dnase_StrongChange_Destroyed"
+			],
+			[
+				"near",
+				"nearsplice"
+			],
+			[
+				"ispeak",
+				"is_peakonly"
+			],
+			[
+				"haprac",
+				"hapfrac==1)%>%tbl_df"
+			],
+			[
+				"compart",
+				"compartment"
+			],
+			[
+				"fig",
+				"Review_Fig_redos/"
+			],
+			[
+				"Fig",
+				"Review_Fig_redos/"
+			],
+			[
+				"identi",
+				"identity"
+			],
+			[
+				"maketpMot",
+				"makeEnrichPlotMotCD\t(maketpMotEnrichmentPlotsMot.R)"
+			],
+			[
+				"compar",
+				"compartment"
+			],
+			[
+				"score.",
+				"score.alt"
+			],
+			[
+				"lost_ch",
+				"lost_change_hapinfo"
+			],
+			[
+				"lost",
+				"lost_change"
+			],
+			[
+				"look",
+				"lookup\t(processPWMchange.R)"
+			],
+			[
+				"pwmdf",
+				"pwmdfenrichgood.object.R"
+			],
+			[
+				"pwmdfa",
+				"pwmdfauc_with_consenrich.txt"
+			],
+			[
+				"eqtls",
+				"eqtlsdt"
+			],
+			[
+				"isb",
+				"isbest"
+			],
+			[
+				"motif",
+				"motifcols"
+			],
+			[
+				"rename",
+				"renamefacts"
+			],
+			[
+				"uniq",
+				"uniqueWrt"
+			],
+			[
+				"eqtlsRd",
+				"eqtlsRedundant"
+			],
+			[
+				"genor",
+				"geneorpeak"
+			],
+			[
+				"str_rep",
+				"str_replace_all"
+			],
+			[
+				"ROC",
+				"ROCsensecutoff"
+			],
+			[
+				"listF",
+				"list.files"
+			],
+			[
+				"HIGH",
+				"highQuality"
+			],
+			[
+				"nonre",
+				"nonredenrichdf\t(pwmchange.R)"
+			],
+			[
+				"altseq",
+				"altseqfile"
+			],
+			[
+				"exclud",
+				"excludefact\t(gather_tf_data.R)"
+			],
+			[
+				"change",
+				"changedf"
+			],
+			[
+				"none",
+				"nonredenrichdf"
+			],
+			[
+				"bed",
+				"bedfile"
+			],
+			[
+				"pwm",
+				"pwminff"
+			],
+			[
+				"co",
+				"correlation"
+			],
+			[
+				"effect.si",
+				"effect.size_1"
+			],
+			[
+				"str_replac",
+				"str_replace_all\t(gather_tf_data.R)"
+			],
+			[
+				"comp",
+				"compcols1"
+			],
+			[
+				"obj",
+				"objects/"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SendREPL/IPython - Source File.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SendREPL/IPython - Source File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R-Box/support/R-Box.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/R-Box/support/R-Box.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R-Box/support/R-Box.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Packages/R-Box/support/R-Box.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R/R.sublime-build",
+					""
+				],
+				[
+					"Packages/SendCode/R - Source File.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SendCode/R - Source File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R/R.sublime-build",
+					""
+				],
+				[
+					"Packages/SendTextPlus/R - Source File.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SendTextPlus/R - Source File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"traili",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"quick",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tospaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"errors",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"trailing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"diable",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintr",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"repl",
+				"SublimeREPL: R"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"syntax: R",
+				"Set Syntax: R"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"send",
+				"SendREPL: Choose REPL Program"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"R-b",
+				"R-Box: Choose Program"
+			],
+			[
+				"LOG",
+				"Git: Log Current File"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"quik",
+				"Git: Quick Commit"
+			],
+			[
+				"quite",
+				"AutoFileName: Quick Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"quick ",
+				"Git: Quick Commit"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"transcr",
+				"Transcrypt::Decrypt"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"keyma",
+				"Keymaps: Cheat Sheet"
+			],
+			[
+				"cheat",
+				"Keymaps: Cheat Sheet"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"keys",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"r-bo",
+				"R-Box: Choose Program"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"move ",
+				"File: Move"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"key",
+				"Keymaps: Cheat Sheet"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"rb",
+				"Build With: R-Box"
+			],
+			[
+				"view sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side ",
+				"Side Bar: Refresh"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"pipe",
+				"Snippet: pipe"
+			],
+			[
+				"snippet ",
+				"Snippet: Attach"
+			],
+			[
+				"alig",
+				"AlignTab"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"quck",
+				"Git: Quick Commit"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"dsable",
+				"Package Control: Disable Package"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"quc",
+				"Git: Quick Commit"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"clip next",
+				"Clipboard Manager: Next"
+			],
+			[
+				"clip hist",
+				"Clipboard Manager: Show History"
+			],
+			[
+				"clipb",
+				"Clipboard Manager: Copy"
+			],
+			[
+				"clpb",
+				"Clipboard Manager: Next & Paste"
+			],
+			[
+				"clip",
+				"Clipboard Manager: Next & Paste"
+			],
+			[
+				"clib",
+				"Clipboard Manager: Show History"
+			],
+			[
+				"cli",
+				"Clipboard Manager: Show Registers"
+			],
+			[
+				"ky",
+				"Keymaps: Cheat Sheet"
+			],
+			[
+				"cliboa",
+				"Clipboard Manager: Cut"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"align\t",
+				"AlignTab"
+			],
+			[
+				"applic",
+				"R-Box Application"
+			],
+			[
+				"repl:R",
+				"SublimeREPL: R"
+			],
+			[
+				"app",
+				"R-Box Application"
+			],
+			[
+				"r-box",
+				"R-Box Application"
+			],
+			[
+				"lintr mo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"repl: R",
+				"SublimeREPL: R"
+			],
+			[
+				"format",
+				"Snippet: Table: wide to long format"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"lin",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"anno",
+				"Git: Toggle Annotations"
+			],
+			[
+				"dif",
+				"Git: Diff Current File"
+			],
+			[
+				"annotat",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git: ",
+				"Git: Checkout Current File"
+			],
+			[
+				"git check",
+				"Git: Checkout Current File"
+			],
+			[
+				"git ",
+				"Git: Fetch"
+			],
+			[
+				"git hist",
+				"Git: Commit history"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"alg",
+				"AlignTab"
+			],
+			[
+				"section",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"rss",
+				"SublimeREPL: Rssh"
+			],
+			[
+				"rssh",
+				"SublimeREPL: Rssh"
+			],
+			[
+				"Rssh",
+				"SublimeREPL: Rssh"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 478.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"'uggcf://jjj.erqqvg.pbz/e/vaprfg/pbzzragf/1fbfj0/pna_lbh_thlf_erpbzzraq_zr_fbzr_vaprfg_gurzrq/.pbzcnpg'.encode('rot13')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/harnett/Harnett/Atac_evo"
+	],
+	"file_history":
+	[
+		"/Users/harnett/Harnett/Atac_evo/src/dermot/projecttodos.txt",
+		"/Users/harnett/Harnett/cortexomics/README.txt",
+		"/Users/harnett/Harnett/cortexomics/src/external/MINE.r",
+		"/Users/harnett/Harnett/cortexomics/src/R/r_code_archive.R",
+		"/Users/harnett/Harnett/cortexomics/src/R/plot_ms_data.R",
+		"/Users/harnett/Harnett/cortexomics/cortexomics.sublime-project",
+		"/Users/harnett/Harnett/cortexomics/r_code_archive.R",
+		"/Users/harnett/Library/Application Support/Sublime Text 3/Packages/User/SublimeLint.sublime-settings",
+		"/Users/harnett/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/examine_clusters.R",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/format_keightly_mutfile.R",
+		"/Volumes/furlong/Harnett/src_general/general_functions.R",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/projecttodos.txt",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/mutationrate_analysis.R",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/clustnum_evo_plots.R",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/data/keightly_et_al_2009_mutdata.txt",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/atac_evo_config.yaml",
+		"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/Snakefile",
+		"/Volumes/furlong/project/31_Phospho_PolII/Snakefile_dermot",
+		"/Volumes/furlong/Harnett/Phospho_polII_myfolder/src/project_rprofile_dermot.R",
+		"/Users/harnett/Desktop/sequence_ml/src/python/simulate_seq_sig.py",
+		"/Users/harnett/Library/Application Support/Sublime Text 3/Packages/SendREPL/SendREPL (OSX).sublime-settings",
+		"/Users/harnett/Desktop/sequence_ml/src/python/pylearn.py",
+		"/Users/harnett/Library/Application Support/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/Volumes/furlong/project/31_Phospho_PolII/Snakefile",
+		"/Volumes/furlong/project/31_Phospho_PolII/config_eRNA.yaml",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Data_Loading/load_genedata.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/gather_pwm_data.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/getPWM_AUC.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/figure_5_final.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Fig_4d_e_5b_histograms_final.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/gather_tf_data.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/process3primechange.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/untitled",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Enrichment_analysis/snpmap_collect_features.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/run_tagseq_scripts.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Data_Loading/annotate.snps.R",
+		"/Users/harnett/Harnett/src_general/general_functions.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/format_supptables.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Fig_3h_4b_5a_c_enrichments_final.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/pwmchange.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/pwmchangeconstructs.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/pwmchange3prime.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/processPWMchange.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/pwmchangefunctionsold.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/tagseqVariance.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/thesis_rna_mot_plots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/thesis_pwm_plots.R",
+		"/Users/harnett/Harnett/src_general/load_annotations.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Other_analysis/utr_length_analysisPlots.R",
+		"/Volumes/furlong/project/17_Tagseq/data/motifs/jasparmotifs/CTCF.pfm",
+		"/Users/harnett/Harnett/src_general/pwmchangefunctions.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/pwmEnrichments.R",
+		"/Users/harnett/Harnett/src_general/plotting_functions.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/pwmchangefunctions.cpp",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Data_Loading/load_eqtl_data.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/utr_length_analysisPlots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/load_expr_data.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/thesis_dist_plots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Other_analysis/LD.analysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/elavQTLLengthanalysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Other_analysis/lengthcompcatenrich.R",
+		"/Users/harnett/Harnett/src_general/load_tagseq.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Other_analysis/HG_tests_Davids_Onts.sh",
+		"/Users/harnett/Harnett/src_general/bash/align_rnaseq_for_tagseq_se.sh",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/miRNA_gain_loss.r",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/load_rnaseq.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Enrichment_analysis/calculate_snpmap_enrichments.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Enrichment_analysis/enrichmentPlots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Data_Loading/load_3prime_mem_motifs.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Reports/metagene_plots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/pwmEnrichmentPlots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Other_analysis/utr_length_analysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/RNAMotifScan.R",
+		"/Users/harnett/Harnett/src_general/archive/define_housekeeping_genes.R",
+		"/Users/harnett/Harnett/src_general/archive/trimcagereads.sh",
+		"/Volumes/furlong/garfield/categorical_enrichment_software/software/point_biserial/run_point_biserial.sh",
+		"/Volumes/furlong/vlad/analysis/GO_annotations/Ser2_GB_p02kb_start_updown/Ser2milli_Twi_3-4h_Ser2milli_Twi_10-12h/run_point_biserial.sh",
+		"/Volumes/furlong/project/31_Phospho_PolII/src/align_procap.sh",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/archive/calculate_enrichments.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/topGOanalysis.R",
+		"/Users/harnett/Harnett/src_general/archive/make_IGV_batchfile.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/bash/makeallHGplots.sh",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/tra2_analysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/threePrimeChangePlots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/tagseq.TODO",
+		"/Users/harnett/Harnett/src_general/load_chromdata.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/changedfplots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/maketpMotEnrichmentPlotsMot.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/snppwmchangeplots.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Fig_3h_4b_final.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Data_Loading/load_transgenic_enhancers.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Enrichment_analysis/collect_features.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Enrichment_analysis/calculate_enrichments.glm.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/trans_read_through_report_eqtls.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/trans_read_through_analysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Other_analysis/weightedIndivUTRlength.R",
+		"/Volumes/furlong/Harnett/data_general/motif_databases/fly_factor_survey.meme",
+		"/Volumes/furlong/Harnett/Tagseq_myfolder/data/motif_fbgn_info/pwmfbgns_manual.txt",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/uQTL_analysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/get_david_pwms.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Motif_Analysis/targetscan.R",
+		"/Volumes/furlong/garfield/DNase/scripts/generate_read-count_scaled_bigWigs_constantSize.py",
+		"/g/furlong/project/17_Tagseq/Dermot/peaks/metadata.txt",
+		"/Users/harnett/Harnett/src_general/pwm_functions.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/tagseq.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/inspection_files_review_experiments.r",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/elav_analysis.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/inspection_files_enrico_26Oct.r",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/altgenome_ref2alt.R",
+		"/Users/harnett/Harnett/testgit/paper.txt",
+		"/Users/harnett/Harnett/src_general/eRNA_species_cross_feasibility.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/Enrichment_analysis/motifSelection3Prime.R",
+		"/Users/harnett/Harnett/Tagseq_myfolder/tagseq-project/five_prime_averagogram.R",
+		"/Volumes/furlong/Harnett/src_general/bash/align_rnaseq_for_tagseq.sh",
+		"/Volumes/furlong/garfield/projects/INSIGHT_analyses/identify_TFBS/DH_motifs/STEPS_FOR_DH.txt",
+		"/Volumes/furlong/Harnett/src_general/bash/align_rnaseq_for_tagseq_se.sh",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/load_cage_qtls.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/calculateMemeEnrichments.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/load_memechip_motif.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/meme_report.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/run_cage_feature_analysis.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/cage.TODO",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/load_cage.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/classify_promotors_bymotif.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/DefinePeaks.R",
+		"/Users/harnett/Harnett/TSS_CAGE_myfolder/src/cage_enrichment_plots.R"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'$'",
+			"$",
+			"\"./results/2017_6_6/\"",
+			",",
+			"_1",
+			"crossing",
+			"library",
+			"_1",
+			"testfun",
+			",",
+			"=",
+			"'",
+			"==",
+			",",
+			"==",
+			"'",
+			"tools::",
+			"package_missing",
+			"scttr3+",
+			"tmpFile",
+			",",
+			"'",
+			"first_protein_name",
+			"/\\t/",
+			"'",
+			"lib.loc = projectlib",
+			"'",
+			"=",
+			"'",
+			",",
+			"=",
+			"+49 170 3463555: ",
+			"+49",
+			"E.A.",
+			"keight",
+			"cagewinds %>% subset(seqnames%in%c('chr2R','chr2L')",
+			"time",
+			"keight",
+			"= T",
+			"V4",
+			"V3",
+			"1:60",
+			"split",
+			"Cluster",
+			"conflims",
+			"Neural",
+			"ctoderm",
+			"E.A.",
+			"tp",
+			"dataID",
+			"conflims",
+			"0.25",
+			"isvalid",
+			"laptop",
+			"    ",
+			"source",
+			"cluster_assign_tbl",
+			"%>% ",
+			"datafiletbl",
+			"E.W.",
+			"[1:2]",
+			"){",
+			"[0-9\\\\.]+",
+			"stat",
+			"as.character",
+			"name",
+			"file",
+			"data_source",
+			"%<>%",
+			"threshold",
+			"source",
+			"phylop_phastcons_plot",
+			"statistic",
+			"conflims",
+			"E.A.",
+			"phylophast_data",
+			"import",
+			"noninsightfiles",
+			"noninsightfiles ",
+			"perl",
+			"install_or_load",
+			"library",
+			"cranpackages",
+			"“",
+			"patser_scan <-",
+			"patser_scan",
+			"patser",
+			"[[1]]",
+			"~/Desktop/forDermot/",
+			"rho",
+			"eamax = 0.8",
+			"eamin = 0.6",
+			"rho",
+			"0.75",
+			"0.55",
+			"[[",
+			"[",
+			"txt",
+			"E.A.",
+			"p2",
+			"rho",
+			"seq_batch",
+			"+",
+			",",
+			" ]",
+			"[ ",
+			"#",
+			",",
+			"n",
+			"seqlen",
+			"baseprobs",
+			"motiflist",
+			":",
+			"2015-03-16_expression_levels/",
+			"http://www.ebi.ac.uk/~nk/s6/dermot/2015-03-16_expression_levels/",
+			"expr",
+			"ROCfunc",
+			"ROC",
+			"file.synonyms",
+			"synonyms",
+			"file.synonyms",
+			"synonyms",
+			"fbgn_synonym",
+			"stage",
+			"stageparsed",
+			"pwmdf",
+			"CG17343",
+			"CG10306"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tagseq_peaks",
+			"writePatserSeqfile",
+			"/g/furlong/Harnett/Tagseq_myfolder/tagseq-project/",
+			"Harnett/Tagseq_myfolder/tagseq-project/general_functions.R",
+			"Tagseq_myfolder/tagseq-project",
+			";\n",
+			"1fds"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clipboard_manager":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.transcrypt_error":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "atac_evo.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rea",
+				"README.txt"
+			],
+			[
+				"confi",
+				"config.yaml"
+			],
+			[
+				"snake",
+				"Snakefile"
+			],
+			[
+				"read",
+				"README.txt"
+			],
+			[
+				"archive",
+				"src/R/r_code_archive.R"
+			],
+			[
+				"profile",
+				"src/R/Rprofile.R"
+			],
+			[
+				"codearch",
+				"src/R/r_code_archive.R"
+			],
+			[
+				"todo",
+				"cortexomics.TODO"
+			],
+			[
+				"mut",
+				"src/dermot/mutationrate_analysis.R"
+			],
+			[
+				"rpro",
+				"src/dermot/Rprofile.R"
+			],
+			[
+				"clust",
+				"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/clustnum_evo_plots.R"
+			],
+			[
+				"profi",
+				"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R"
+			],
+			[
+				"config",
+				"/Volumes/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/atac_evo_config.yaml"
+			],
+			[
+				"gene",
+				"/Volumes/furlong/Harnett/src_general/general_functions.R"
+			],
+			[
+				"general",
+				"src/general_functions.R"
+			],
+			[
+				"load_ge",
+				"tagseq-project/Data_Loading/load_genedata.R"
+			],
+			[
+				"auc",
+				"tagseq-project/Motif_Analysis/getPWM_AUC.R"
+			],
+			[
+				"load_gene",
+				"tagseq-project/Data_Loading/load_genedata.R"
+			],
+			[
+				"gather",
+				"tagseq-project/Motif_Analysis/gather_pwm_data.R"
+			],
+			[
+				"process",
+				"tagseq-project/Motif_Analysis/process3primechange.R"
+			],
+			[
+				"fig",
+				"tagseq-project/Fig_4d_e_5b_histograms_final.R"
+			],
+			[
+				"figure",
+				"tagseq-project/figure_5_final.R"
+			],
+			[
+				"run",
+				"tagseq-project/run_tagseq_scripts.R"
+			],
+			[
+				"constr",
+				"tagseq-project/pwmchangeconstructs.R"
+			],
+			[
+				"construct",
+				"tagseq-project/pwmchangeconstructs.R"
+			],
+			[
+				"gatehr",
+				"tagseq-project/Motif_Analysis/gather_tf_data.R"
+			],
+			[
+				"format",
+				"tagseq-project/Motif_Analysis/format_supptables.R"
+			],
+			[
+				"annot",
+				"tagseq-project/Data_Loading/annotate.snps.R"
+			],
+			[
+				"pwmchange",
+				"tagseq-project/Motif_Analysis/pwmchange3prime.R"
+			],
+			[
+				"pwmfu",
+				"tagseq-project/pwmchangefunctionsold.R"
+			],
+			[
+				"pwmch",
+				"tagseq-project/Motif_Analysis/pwmchange.R"
+			],
+			[
+				"colle",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"annotate",
+				"tagseq-project/Data_Loading/annotate.snps.R"
+			],
+			[
+				"gather_",
+				"tagseq-project/Motif_Analysis/gather_tf_data.R"
+			],
+			[
+				"gener",
+				"src_general/general_functions.R"
+			],
+			[
+				"snps",
+				"tagseq-project/Data_Loading/annotate.snps.R"
+			],
+			[
+				"load_ann",
+				"src_general/load_annotations.R"
+			],
+			[
+				"final",
+				"tagseq-project/Fig_3h_4b_5a_c_enrichments_final.R"
+			],
+			[
+				"supp",
+				"tagseq-project/Motif_Analysis/format_supptables.R"
+			],
+			[
+				"plott",
+				"src_general/plotting_functions.R"
+			],
+			[
+				"plot",
+				"src_general/plotting_functions.R"
+			],
+			[
+				"pwmc",
+				"tagseq-project/pwmchangefunctions.cpp"
+			],
+			[
+				"pwmcha",
+				"src_general/pwmchangefunctions.R"
+			],
+			[
+				"length",
+				"tagseq-project/utr_length_analysisPlots.R"
+			],
+			[
+				"load_exp",
+				"tagseq-project/Motif_Analysis/load_expr_data.R"
+			],
+			[
+				"annotat",
+				"tagseq-project/Data_Loading/annotate.snps.R"
+			],
+			[
+				"load_eqtl",
+				"tagseq-project/Data_Loading/load_eqtl_data.R"
+			],
+			[
+				"thesis",
+				"tagseq-project/thesis_dist_plots.R"
+			],
+			[
+				"ld",
+				"tagseq-project/Other_analysis/LD.analysis.R"
+			],
+			[
+				"elav",
+				"tagseq-project/elavQTLLengthanalysis.R"
+			],
+			[
+				"gathert",
+				"tagseq-project/Motif_Analysis/gather_tf_data.R"
+			],
+			[
+				"fig_",
+				"tagseq-project/Fig_4d_e_5b_histograms_final.R"
+			],
+			[
+				"catenrich",
+				"tagseq-project/Other_analysis/lengthcompcatenrich.R"
+			],
+			[
+				"david",
+				"tagseq-project/Other_analysis/HG_tests_Davids_Onts.sh"
+			],
+			[
+				"load_tag",
+				"src_general/load_tagseq.R"
+			],
+			[
+				"gather_pwm",
+				"tagseq-project/Motif_Analysis/gather_pwm_data.R"
+			],
+			[
+				"rna",
+				"tagseq-project/load_rnaseq.R"
+			],
+			[
+				"rna_",
+				"tagseq-project/miRNA_gain_loss.r"
+			],
+			[
+				"rna_seq",
+				"src_general/bash/align_rnaseq_for_tagseq_se.sh"
+			],
+			[
+				"3prim",
+				"tagseq-project/Motif_Analysis/pwmchange3prime.R"
+			],
+			[
+				"histo",
+				"tagseq-project/Fig_4d_e_5b_histograms_final.R"
+			],
+			[
+				"load",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"load_meme",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"load_mem",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"ntplo",
+				"tagseq-project/Enrichment_analysis/enrichmentPlots.R"
+			],
+			[
+				"collect",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"3prime",
+				"tagseq-project/Motif_Analysis/pwmchange3prime.R"
+			],
+			[
+				"load_3",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"ntplot",
+				"tagseq-project/Enrichment_analysis/enrichmentPlots.R"
+			],
+			[
+				"calcula",
+				"tagseq-project/Enrichment_analysis/calculate_snpmap_enrichments.R"
+			],
+			[
+				"calcul",
+				"tagseq-project/Enrichment_analysis/calculate_snpmap_enrichments.R"
+			],
+			[
+				"load_eqt",
+				"tagseq-project/Data_Loading/load_eqtl_data.R"
+			],
+			[
+				"metage",
+				"tagseq-project/Reports/metagene_plots.R"
+			],
+			[
+				"snpma",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"load_eq",
+				"tagseq-project/Data_Loading/load_eqtl_data.R"
+			],
+			[
+				"snp",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"",
+				"tagseq-project/Motif_Analysis/processPWMchange.R"
+			],
+			[
+				"gather_tf",
+				"tagseq-project/Motif_Analysis/gather_tf_data.R"
+			],
+			[
+				"pwmen",
+				"tagseq-project/Motif_Analysis/pwmEnrichments.R"
+			],
+			[
+				"pwmenri",
+				"tagseq-project/Motif_Analysis/pwmEnrichments.R"
+			],
+			[
+				"load_3p",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"mirna",
+				"tagseq-project/miRNA_gain_loss.r"
+			],
+			[
+				"change",
+				"tagseq-project/Motif_Analysis/pwmchange.R"
+			],
+			[
+				"thei",
+				"tagseq-project/thesis_rna_mot_plots.R"
+			],
+			[
+				"scan",
+				"tagseq-project/Motif_Analysis/RNAMotifScan.R"
+			],
+			[
+				"laod_3",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"rnamo",
+				"tagseq-project/Motif_Analysis/RNAMotifScan.R"
+			],
+			[
+				"calculate",
+				"tagseq-project/Enrichment_analysis/calculate_snpmap_enrichments.R"
+			],
+			[
+				"load_g",
+				"tagseq-project/Data_Loading/load_genedata.R"
+			],
+			[
+				"feature",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"motifs",
+				"tagseq-project/Motif_Analysis/RNAMotifScan.R"
+			],
+			[
+				"define",
+				"src_general/archive/define_housekeeping_genes.R"
+			],
+			[
+				"utr_len",
+				"tagseq-project/utr_length_analysisPlots.R"
+			],
+			[
+				"cage",
+				"src_general/archive/trimcagereads.sh"
+			],
+			[
+				"pform",
+				"tagseq-project/Motif_Analysis/format_supptables.R"
+			],
+			[
+				"hg",
+				"tagseq-project/Other_analysis/HG_tests_Davids_Onts.sh"
+			],
+			[
+				"gather_t",
+				"tagseq-project/Motif_Analysis/gather_tf_data.R"
+			],
+			[
+				"plotssh",
+				"tagseq-project/bash/makeallHGplots.sh"
+			],
+			[
+				"snpm",
+				"tagseq-project/Enrichment_analysis/calculate_snpmap_enrichments.R"
+			],
+			[
+				".sh",
+				"tagseq-project/Other_analysis/HG_tests_Davids_Onts.sh"
+			],
+			[
+				"enrichmen",
+				"tagseq-project/Motif_Analysis/pwmEnrichments.R"
+			],
+			[
+				"coll",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"load_chrom",
+				"src_general/load_chromdata.R"
+			],
+			[
+				"tra2",
+				"tagseq-project/tra2_analysis.R"
+			],
+			[
+				"entplot",
+				"tagseq-project/Enrichment_analysis/enrichmentPlots.R"
+			],
+			[
+				"entpl",
+				"tagseq-project/Motif_Analysis/maketpMotEnrichmentPlotsMot.R"
+			],
+			[
+				"calcu",
+				"tagseq-project/archive/calculate_enrichments.R"
+			],
+			[
+				"pwme",
+				"tagseq-project/Motif_Analysis/pwmEnrichments.R"
+			],
+			[
+				"eplots",
+				"tagseq-project/Motif_Analysis/threePrimeChangePlots.R"
+			],
+			[
+				"changeplo",
+				"tagseq-project/Motif_Analysis/threePrimeChangePlots.R"
+			],
+			[
+				"pwmchangep",
+				"tagseq-project/Motif_Analysis/snppwmchangeplots.R"
+			],
+			[
+				"glm",
+				"src_general/load_chromdata.R"
+			],
+			[
+				"mentplo",
+				"tagseq-project/Enrichment_analysis/enrichmentPlots.R"
+			],
+			[
+				"transg",
+				"tagseq-project/Data_Loading/load_transgenic_enhancers.R"
+			],
+			[
+				"annoat",
+				"tagseq-project/Data_Loading/annotate.snps.R"
+			],
+			[
+				"load_gn",
+				"tagseq-project/Data_Loading/load_genedata.R"
+			],
+			[
+				"geneda",
+				"tagseq-project/Data_Loading/load_genedata.R"
+			],
+			[
+				"genel",
+				"src_general/general_functions.R"
+			],
+			[
+				"enrich",
+				"tagseq-project/Motif_Analysis/pwmEnrichments.R"
+			],
+			[
+				"snpmap",
+				"tagseq-project/Enrichment_analysis/snpmap_collect_features.R"
+			],
+			[
+				"annota",
+				"tagseq-project/Data_Loading/annotate.snps.R"
+			],
+			[
+				"load_tp",
+				"tagseq-project/Data_Loading/load_3prime_mem_motifs.R"
+			],
+			[
+				"form",
+				"tagseq-project/Motif_Analysis/format_supptables.R"
+			],
+			[
+				"pwmenr",
+				"tagseq-project/Motif_Analysis/pwmEnrichments.R"
+			],
+			[
+				"pfom",
+				"tagseq-project/Motif_Analysis/format_supptables.R"
+			],
+			[
+				"enrichme",
+				"tagseq-project/Enrichment_analysis/enrichmentPlots.R"
+			],
+			[
+				"enrichment",
+				"tagseq-project/Enrichment_analysis/calculate_snpmap_enrichments.R"
+			],
+			[
+				"tf_",
+				"tagseq-project/Motif_Analysis/gather_tf_data.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cage",
+				"~/Harnett/SublimeTextProjects/cageqtls.sublime-project"
+			],
+			[
+				"ph",
+				"~/Harnett/SublimeTextProjects/phosphopol.sublime-project"
+			],
+			[
+				"cag",
+				"~/Harnett/SublimeTextProjects/cageqtls.sublime-project"
+			],
+			[
+				"evo",
+				"~/Harnett/SublimeTextProjects/evoscan.sublime-project"
+			],
+			[
+				"",
+				"~/Harnett/SublimeTextProjects/tagseq.sublime-project"
+			],
+			[
+				"tagseq",
+				"~/Harnett/SublimeTextProjects/tagseq.sublime-project"
+			],
+			[
+				"c",
+				"~/Harnett/SublimeTextProjects/cageqtls.sublime-project"
+			],
+			[
+				"pho",
+				"~/Harnett/SublimeTextProjects/phosphopol.sublime-project"
+			],
+			[
+				"tag",
+				"~/Harnett/SublimeTextProjects/tagseq.sublime-project"
+			],
+			[
+				"ca",
+				"~/Harnett/SublimeTextProjects/cageqtls.sublime-project"
+			],
+			[
+				"ev",
+				"~/Harnett/SublimeTextProjects/evoscan.sublime-project"
+			],
+			[
+				"evos",
+				"~/Harnett/SublimeTextProjects/evoscan.sublime-project"
+			],
+			[
+				"ec",
+				"~/Harnett/SublimeTextProjects/evoscan.sublime-project"
+			],
+			[
+				"qt",
+				"~/Harnett/SublimeTextProjects/cageqtls.sublime-project"
+			],
+			[
+				"jo",
+				"~/Harnett/SublimeTextProjects/joint_eqtls.sublime-project"
+			],
+			[
+				"joi",
+				"~/Harnett/SublimeTextProjects/joint_eqtls.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 100.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
