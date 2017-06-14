@@ -1,4 +1,0 @@
-#!/usr/bin/bash
-
-rsync --safe-links --exclude 'data' --exclude 'dnase' --exclude 'scATAC'  --max-size 10m -rv ~/Harnett/Atac_evo/ /g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/
-
