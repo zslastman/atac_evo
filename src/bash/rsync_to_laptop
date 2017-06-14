@@ -5,4 +5,3 @@ rsync --safe-links --exclude 'data' --exclude 'dnase' --exclude 'scATAC'  --max-
 ln -s /g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/data ~/Harnett/Atac_evo/data
 ln -s /g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/dnase ~/Harnett/Atac_evo/dnase
 ln -s /g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/scATAC/ ~/Harnett/Atac_evo/scATAC
-
