@@ -7,6 +7,7 @@ data:
   sharp_mutdata: "data/sharp_agrawal_2016_mutadata.csv"
   keightly_mutdata: "data/keightly_et_al_2009_mutdata_formatted.txt"
   validSites: "/g/furlong/garfield/projects/INSIGHT_analyses/valid_sites_file/validSites.txt"
+  validSitesgff: "data/validSites.gff3"
 
 results:
     input_metadata: './results/2017_6_19/input_file_metadata.txt'

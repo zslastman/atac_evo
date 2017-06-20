@@ -1,36 +1,3 @@
-################################################################################
-##########Working with compressed genome files
-################################################################################
-make_file_tabix<-function(file){
- require(tools)
-  filenoex = tools::file_path_sans_ext(file)
-  file_ext= file_ext(file)
-  filegz = paste0(filenoex,'.sort.',file_ext,'.gz')
-  fileindex = paste0(filenoex,'.sort.',file_ext,'.gz.tbi')
-  system(sprintf('less %s | sort -k 1,1 -k 2,2n | bgzip > %s',file,filegz))
-  system(sprintf('tabix -p bed %s',filegz))
-  stopifnot(file.exists(fileindex))
-  return(filegz)
-}
-
-
-access_tabix <- function(tabixedfile,chrom,start,end) {
-  require(tools)
-  stopifnot(file.exists(paste0(tabixedfile,'.tbi')))
-  stopifnot(file.exists(paste0(tabixedfile)))
-  indexstring = paste0(chrom,':',start,'-',end)
-  tryCatch({
-      fread(sprintf('tabix %s %s ',tabixedfile,indexstring))
-  },error=function(e){
-      NULL
-  })
-}
-
-file.copy(sitefile,'data/validsites_insight.txt')
-make_file_tabix('data/validsites_insight.txt')
-
-
-
 # -------------------------------------------------------------------------------
 # --------Run the asymptotik MK test on a bunhc of sites
 # -------------------------------------------------------------------------------
@@ -40,9 +7,59 @@ require(dplyr)
 require(devtools)
 require(GenomicRanges)
 require (magrittr)
+require (tidyverse)
 ANCESTRAL_P_THRESH <- 0.8
-sitefile <- "/g/furlong/garfield/projects/INSIGHT_analyses/valid_sites_file/validSites.txt"
+config = yaml.load_file(config_file)
 
+# -------------------------------------------------------------------------------
+# --------Read in valid sites used by insight, getting daf where possible
+# -------------------------------------------------------------------------------
+sitefile <-  config$data$validSites
+insight_polysights <-
+	sitefile %>%
+	sprintf(
+		fmt = "cat %s  | grep %s | cut -f 1,3,7,8,9,10",
+		"\\\tP\\\t"
+	)%>%
+	fread %>%
+	set_colnames(c('seqnames','start','maj_ancest_prob',
+		'min_ancest_prob','n_maj','n_min')
+	)
+
+#mark sites where both may be derived
+insight_polysights %<>% mutate(
+		both_derived = pmax(maj_ancest_prob,min_ancest_prob) < ANCESTRAL_P_THRESH
+	)
+
+#decide which one is derived, get it's frequency
+insight_polysights  %<>%
+	tbl_df %>% 
+	#get minor allele frequency
+	mutate(maf = n_min / (n_maj + n_min)) %>%
+	mutate(
+		#get daf
+		daf = ifelse(
+			maj_ancest_prob > ANCESTRAL_P_THRESH,
+			maf,
+			1 - maf
+		),
+		#NA when both are derived
+		daf = ifelse( 
+			pmax(maj_ancest_prob,min_ancest_prob) < ANCESTRAL_P_THRESH,NA,daf)
+	)
+
+#now make a granges object
+insight_polysights %<>%
+	with (  {
+		GRanges(
+			seqnames = seqnames,
+			IRanges(start = start,w=1),
+			daf = daf,
+			maf = maf
+		)
+	} )
+
+insight_polysights %>% export(config$data$validSitesgff)
 
 #this function runs the asymptotic
 
@@ -108,52 +125,13 @@ stop('stopping here')
 message("Loading and processing polymorphism data")
 
 
-insight_polysights <-
-	sitefile %>%
-	sprintf(
-		fmt = "cat %s  | grep %s | cut -f 1,3,7,8,9,10",
-		"\\\tP\\\t"
-	)%>%
-	fread %>%
-	set_colnames(c('seqnames','start','maj_ancest_prob',
-		'min_ancest_prob','n_maj','n_min')
-	)
-#get rid of sites where both may be derived
-insight_polysights %<>% filter(
-		pmax(maj_ancest_prob,min_ancest_prob) > ANCESTRAL_P_THRESH
-	)
 
-#decide which one is derived, get it's frequency
-insight_polysights  %<>%
-	tbl_df %>% 
-	mutate(maf = n_min / (n_maj + n_min)) %>%
-	mutate(
-		daf = ifelse(
-			maj_ancest_prob > ANCESTRAL_P_THRESH,
-			maf,
-			1 - maf
-		)
-	)
-
-#now make a granges object
-insight_polysights %<>%
-	with (  {
-		GRanges(
-			seqnames = seqnames,
-			IRanges(start = start,w=1),
-			daf = daf,
-			maf = maf
-		)
-	} )
 
 
 
 # -------------------------------------------------------------------------------
 # --------Now run the asymptotic MK test
 # -------------------------------------------------------------------------------
-
-"scATAC/2_4h_bedFiles/per_cluster/"
-
 testregion = GRanges('chr2L',IRanges(1,w=10e6))
 ctlregion = GRanges('chr2R',IRanges(1,w=10e6))
 
