@@ -1,0 +1,19 @@
+homefolder:	'/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/'
+resfolder:  "/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/scATAC/combinedResults"
+peak_clust_bed_glob:  '/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/scATAC/*bedFiles/per_cluster/*bed6'
+cluster_assignment_file:  '/g/furlong/project/28_B_DNASE/analysis/scATAC/current_tSNE_data/Garfield_Heatmaps/combined_cluster_assignments.tsv'
+
+data:
+  sharp_mutdata: "data/sharp_agrawal_2016_mutadata.csv"
+  keightly_mutdata: "data/keightly_et_al_2009_mutdata_formatted.txt"
+  validSites: "/g/furlong/garfield/projects/INSIGHT_analyses/valid_sites_file/validSites.txt"
+
+results:
+    input_metadata: './results/2017_6_19/input_file_metadata.txt'
+
+plots:
+  phylop_phastcons_plot: './results/2017_6_19/plots/evo_tp_program_barplot.pdf'
+  clustcount_insight_plots: "results/2017_6_19/plots/clustcount_insight_plots.pdf"
+  clusts_phylop_phastcons_plot: 'results/2017_6_19/plots/clusts_phylop_phastcons_plot.pdf'
+  isneural_phylop_phastcons_plot: 'results/2017_6_19/plots/isneural_phastcons_plot.pdf'
+  mut_cluster_plot: 'results/2017_6_19/plots/mut_cluster_plot.pdf'

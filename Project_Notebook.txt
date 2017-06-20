@@ -1,0 +1,42 @@
+#This project will hopefully be the little spin of evolutionary story from the
+#ATAC seq project
+
+###This project needs to move fast
+
+
+
+meeting 17th June
+taylor et al used DAF to to argue that what they were seeing was difference in mutational rate.
+
+Derived allele tests when we did them were consistent with insight.
+
+
+David expects mutation rate might be higher in things like germ line accessible sites.
+
+David doesn’t expect eA to be very interesting. Rarely positive not very robust statistic.
+
+To get a sane alpha in drosophila you have to subsample sites over and over with INSIGHT and take average. (not robust)
+Rho is probably better - probably good measure of fitness consequences of new mutation.
+We want to look at E.W. Rho and alpha
+
+We can also do Phastcons and PhyloP
+
+
+Pleotitropy results
+how can we eliminate higher mutational frequency?
+Experimental stuff so far didn’t support.
+DAF test.
+
+INSIGHT was run by pointing do_insight_runs.sh on a folder full of beds. 
+
+INSIGHT runs may actually be for distal sights only.
+build peak sets seems to remove proximal sites
+
+Pi - polymorphism period - we can maybe see if there’s just a higher pi in our less pleiotropic sites.
+So we could try and use this to see if we’re having different mutation rates in our test vs blocks, or in our more pleiotropic sites.
+
+
+Tsne and clustering.
+Monocle is a software package the makes temporal series. 
+Also working on spatial sorting. Seems super cool.
+
