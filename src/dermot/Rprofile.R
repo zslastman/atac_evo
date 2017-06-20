@@ -316,11 +316,12 @@ nomcols <- function(x){ x %>% .[,NULL] }
 #it takes in an anddress that looks like i'ts on the mac, rsyncs
 #the file from the mac to the server, then sources that.
 source <- function(file,...){
+  require(stringr)
   if(file %>% str_detect('(/Volumes/)|(Users/harnett/)')){
     message('syncing local files to server')
     #and change file to a path on the server
     file=str_replace(file,'Volumes','g')
-    file=str_replace(file,'/Users/harnett/','/g/furlong/')
+    file=str_replace(file,'^.*/src','./src')
     #
   }
   if(any(grepl('#\\s*SPINFILE',readLines(file,5)))){
@@ -426,11 +427,7 @@ setminus<-function(x,y){
 #' Paragraph explaining more
 #' 
 #' @param str string vector to filter
-<<<<<<< HEAD
 #' @param pattern the pattern (can be a regex(pat) pattern)
-=======
-#' @param pattern the pattern (can be a perl(pat) pattern)
->>>>>>> 86d8964e3101afd2bd4422553b1e79f21a2f51cc
 #' @param inv invert selection?
 #' @examples str_select(letters[1:10],'a|d')
 #' @return subset of str
@@ -834,11 +831,7 @@ get_laptop_name <- function(){
     if(! length(laptopname)>0) stop('no machines found')
     laptopname =base::grep(laptopname,value=TRUE,pattern=username)
     if(! length(laptopname)>0) stop('no machines matching username')
-<<<<<<< HEAD
-    laptopname =  str_extract(laptopname,regex('(?<=\\d\\d:\\d\\d\\s\\().*(?=.)'))
-=======
     laptopname =  str_extract(laptopname,perl('(?<=\\d\\d:\\d\\d\\s\\().*(?=.)'))
->>>>>>> 86d8964e3101afd2bd4422553b1e79f21a2f51cc
     laptopname =base::grep(laptopname,value=TRUE,pattern='pts/',invert=TRUE)
 
     if(length(laptopname)>1){
@@ -908,7 +901,4 @@ group_slice<-function(dt,v){
   out
 }
 
-<<<<<<< HEAD
-# source("/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R")
-=======
->>>>>>> 86d8964e3101afd2bd4422553b1e79f21a2f51cc
+source('/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R')
