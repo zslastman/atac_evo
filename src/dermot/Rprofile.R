@@ -37,36 +37,8 @@ install_or_load <- function(libname, cranurl = "http://cran.rstudio.com/"){
 
 
 
-#load our libraries
-# install_or_load('acepack')
-# install_or_load('Hmisc')
-# install_or_load('S4Vectors')
-# install_or_load('BatchJobs')
-# install_or_load('magrittr')
-# install_or_load('colorout')
-# install_or_load('ggplot2')
-# install_or_load('stringr')
-# install_or_load('rjson')
-# install_or_load('Matrix')
-# install_or_load('rtracklayer')
-# install_or_load('data.table')
-# install_or_load('BSgenome.Dmelanogaster.UCSC.dm3')
-# install_or_load('knitr')
-# install_or_load('dtplyr')
-# install_or_load('dplyr')
-# install_or_load('utils')
-# install_or_load('Hmisc')
-# install_or_load('Formula')
-# install_or_load('acepack')
-# install_or_load('latticeExtra')
-# install_or_load('lazyeval')
-# install_or_load('tidyr')
-# install_or_load('modules')
-# install_or_load('testthat')
-
 
 install_or_load('data.table')
-install_or_load('magrittr')
 install_or_load('GenomicRanges')
 install_or_load('rtracklayer')
 install_or_load('dplyr')
@@ -78,13 +50,6 @@ install_or_load('stringr')
 install_or_load('checkmate')
 install_or_load('tidyverse')
 
-# args(install.packages)
-
-# install.packages("Rcpp")
-
-# library('Rcpp')
-# devtools::install_github("tidyverse/dplyr",projectlib)
-# devtools::install_github("tidyverse/dplyr")
 
 
 # #clear objects
@@ -461,7 +426,11 @@ setminus<-function(x,y){
 #' Paragraph explaining more
 #' 
 #' @param str string vector to filter
+<<<<<<< HEAD
 #' @param pattern the pattern (can be a regex(pat) pattern)
+=======
+#' @param pattern the pattern (can be a perl(pat) pattern)
+>>>>>>> 86d8964e3101afd2bd4422553b1e79f21a2f51cc
 #' @param inv invert selection?
 #' @examples str_select(letters[1:10],'a|d')
 #' @return subset of str
@@ -865,7 +834,11 @@ get_laptop_name <- function(){
     if(! length(laptopname)>0) stop('no machines found')
     laptopname =base::grep(laptopname,value=TRUE,pattern=username)
     if(! length(laptopname)>0) stop('no machines matching username')
+<<<<<<< HEAD
     laptopname =  str_extract(laptopname,regex('(?<=\\d\\d:\\d\\d\\s\\().*(?=.)'))
+=======
+    laptopname =  str_extract(laptopname,perl('(?<=\\d\\d:\\d\\d\\s\\().*(?=.)'))
+>>>>>>> 86d8964e3101afd2bd4422553b1e79f21a2f51cc
     laptopname =base::grep(laptopname,value=TRUE,pattern='pts/',invert=TRUE)
 
     if(length(laptopname)>1){
@@ -935,4 +908,7 @@ group_slice<-function(dt,v){
   out
 }
 
+<<<<<<< HEAD
 # source("/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R")
+=======
+>>>>>>> 86d8964e3101afd2bd4422553b1e79f21a2f51cc

@@ -1,9 +1,6 @@
 #This project will hopefully be the little spin of evolutionary story from the
 #ATAC seq project
 
-###This project needs to move fast
-
-
 
 meeting 17th June
 taylor et al used DAF to to argue that what they were seeing was difference in mutational rate.

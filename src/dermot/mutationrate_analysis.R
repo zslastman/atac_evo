@@ -90,7 +90,6 @@ clustsfiletbl %<>% arrange(
 )
 
 
-#read read in the location o four clusters
 noninsightfiles = clustsfiletbl %>% filter(data_source %>% str_detect('phylo')) %>%{ setNames(.$file,.$data_source)}
 #rad in data and select the source/stat columns
 phylophast_data  <- lapply(noninsightfiles,fread)
