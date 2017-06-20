@@ -43,3 +43,5 @@ Have finally got sshfs working, seems to be working okay, though the folder isn'
 sudo sshfs -o allow_other,defer_permissions,workaround=rename harnett@spinoza:/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/  ~/Harnett/atac_evo_remote/
 
 Build systems of course not working now, but what can you do.
+
+More problems
