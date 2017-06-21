@@ -24,7 +24,7 @@ install_or_load <- function(libname, cranurl = "http://cran.rstudio.com/"){
       #the biocLite function (from the bioconductor website)
       #will install from CRAN if a package isn't on biocnductor
       biocLite(
-        suppressUpdates = FALSE,
+        suppressUpdates = TRUE,
         suppressAutoUpdate = TRUE,
         libname
       )
@@ -35,9 +35,10 @@ install_or_load <- function(libname, cranurl = "http://cran.rstudio.com/"){
   }
 }
 
-
-
-
+# library(dplyr)
+# install.packages %>% args
+# install.packages( "Hmisc",repos="http://cran.rstudio.com/")
+install_or_load('Hmisc')
 install_or_load('data.table')
 install_or_load('GenomicRanges')
 install_or_load('rtracklayer')
@@ -901,4 +902,4 @@ group_slice<-function(dt,v){
   out
 }
 
-source('/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R')
+# source('/g/furlong/project/28_B_DNASE/analysis/evolutionary_analyses/INSIGHT/src/dermot/Rprofile.R')

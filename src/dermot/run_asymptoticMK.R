@@ -8,61 +8,14 @@ require(devtools)
 require(GenomicRanges)
 require (magrittr)
 require (tidyverse)
+require (yaml)
 ANCESTRAL_P_THRESH <- 0.8
 config = yaml.load_file(config_file)
+)
 
-# -------------------------------------------------------------------------------
-# --------Read in valid sites used by insight, getting daf where possible
-# -------------------------------------------------------------------------------
-sitefile <-  config$data$validSites
-insight_polysights <-
-	sitefile %>%
-	sprintf(
-		fmt = "cat %s  | grep %s | cut -f 1,3,7,8,9,10",
-		"\\\tP\\\t"
-	)%>%
-	fread %>%
-	set_colnames(c('seqnames','start','maj_ancest_prob',
-		'min_ancest_prob','n_maj','n_min')
-	)
-
-#mark sites where both may be derived
-insight_polysights %<>% mutate(
-		both_derived = pmax(maj_ancest_prob,min_ancest_prob) < ANCESTRAL_P_THRESH
-	)
-
-#decide which one is derived, get it's frequency
-insight_polysights  %<>%
-	tbl_df %>% 
-	#get minor allele frequency
-	mutate(maf = n_min / (n_maj + n_min)) %>%
-	mutate(
-		#get daf
-		daf = ifelse(
-			maj_ancest_prob > ANCESTRAL_P_THRESH,
-			maf,
-			1 - maf
-		),
-		#NA when both are derived
-		daf = ifelse( 
-			pmax(maj_ancest_prob,min_ancest_prob) < ANCESTRAL_P_THRESH,NA,daf)
-	)
-
-#now make a granges object
-insight_polysights %<>%
-	with (  {
-		GRanges(
-			seqnames = seqnames,
-			IRanges(start = start,w=1),
-			daf = daf,
-			maf = maf
-		)
-	} )
-
-insight_polysights %>% export(config$data$validSitesgff)
+# insight_polysights  <-  rtracklayer::import(config$data$validSitesgff)
 
 #this function runs the asymptotic
-
 #this program will run asymptotic
 
 
@@ -70,7 +23,6 @@ asymptotic_mk_test <- function(
 	testregion,
 	ctlregion,
 	sites_gr,
-	binsize = 25,
 	xlow = 0.1,
 	xhigh = 0.9,
 	output = "table"
@@ -93,25 +45,14 @@ asymptotic_mk_test <- function(
 	d0  <- length(ctlsites)
 	d  <- length(testsites)
 	#now figure out how many bins to segregate the sites into
-	#to do this we can
-	#our target bin size is 50, so we want to pick the minimum
-	#then divide our test and ctl into l/(b*2) pieces so it's
-	#always b or above elements per bin
-	#this code will ensure that there are binsize sites in each bin
-	#though it won't care about the proportions in them.
 	#	
-	stopifnot(min(d0,d) > binsize )
-	cutnum  <- floor(min(d0,d)/(binsize*2))
-	#
-	bins <- c(testsites$daf,ctlsites$daf) %>% cut_number(cutnum)
-	#get the 
-	p = table(bins[1:length(testsites)]) %>% as.vector
-	p0 = table(bins[length(testsites)+1:length(bins)])%>% as.vector
+	bins <- c(testsites$daf,ctlsites$daf)  %>% table
+
+	p = table(testsites$daf)[names(bins)] %>% replace(.,is.na(.),0)
+	p0 = table(ctlsites$daf)[names(bins)] %>% replace(.,is.na(.),0)
+
 	#get the actual daf frequencies in each bin (rightmost)
-	f  =
-		bins %>% levels %>%
-		(regex('(?<=,)\\-?[0-9\\.]+')) %>%
-		as.numeric
+	f  = names(bins) %>% as.numeric
 	#run asymptotic mk
 	asymptoticMK(d0=d0, d=d, 
 		df=data.frame(f,p,p0,row.names=NULL),
