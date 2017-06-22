@@ -14,7 +14,7 @@ ANCESTRAL_P_THRESH <- 0.8
 config = yaml.load_file(config_file)
 source('./src/asymptoticMK/asymptoticMK_local.R')
 
-# insight_polysights  <-  rtracklayer::import(config$data$validSitesgff)
+insight_polysights  <-  rtracklayer::import(config$data$validSitesgff)
 
 #this function runs the asymptotic
 #this program will run asymptotic

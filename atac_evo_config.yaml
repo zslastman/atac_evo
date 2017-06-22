@@ -18,3 +18,4 @@ plots:
   clusts_phylop_phastcons_plot: 'results/2017_6_19/plots/clusts_phylop_phastcons_plot.pdf'
   isneural_phylop_phastcons_plot: 'results/2017_6_19/plots/isneural_phastcons_plot.pdf'
   mut_cluster_plot: 'results/2017_6_19/plots/mut_cluster_plot.pdf'
+  clustcount_daf_plots: "results/2017_6_22/clustcount_daf_plots.pdf"
