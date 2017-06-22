@@ -86,6 +86,24 @@ revalue= plyr::revalue
 
 
 
+assert_that <- function(x,...){
+  predicates <- list(...)
+  stopifnot(length(predicates)!=0)
+  prednames <- as.character(as.list(match.call())[-c(1:2)])
+  predicates <- map(predicates,as_function)
+  stopifnot(map_lgl(predicates,is.function))
+  tests = predicates %>% invoke_map_lgl(.f=.,.x=list(NULL),x)
+  for(i in seq_along(tests)){
+    if(! tests[i]) warning(paste0(prednames[i]," is not TRUE"))
+  }
+  if(!all(tests)) stop("Some tests failed")
+  x
+}
+
+has_rows <- function(x) nrow(x) > 0 
+has_cols <- function(x) ncol(x) > 0 
+
+
 shape.index<-function(v){
   v<-v[v!=0]
   s<-sum(v)
