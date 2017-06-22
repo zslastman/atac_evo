@@ -9,9 +9,10 @@ require(GenomicRanges)
 require (magrittr)
 require (tidyverse)
 require (yaml)
+install_or_load('nls2')
 ANCESTRAL_P_THRESH <- 0.8
 config = yaml.load_file(config_file)
-)
+source('./src/asymptoticMK/asymptoticMK_local.R')
 
 # insight_polysights  <-  rtracklayer::import(config$data$validSitesgff)
 
@@ -73,15 +74,17 @@ message("Loading and processing polymorphism data")
 # -------------------------------------------------------------------------------
 # --------Now run the asymptotic MK test
 # -------------------------------------------------------------------------------
-testregion = GRanges('chr2L',IRanges(1,w=10e6))
-ctlregion = GRanges('chr2R',IRanges(1,w=10e6))
+import('')
+Sys.glob("./scATAC/*bedFiles/*byTissue*/*byPeaks*")
+Sys.glob("./scATAC/*bedFiles/byTissue/byPeaks/*.bed")
 
 #usage
 asym_mk_output <- asymptotic_mk_test(
 	testregion,
 	ctlregion,
 	sites_gr=insight_polysights
-)
+	) %>% 
+	select(model,a,b,c,CI_low,CI_high,alpha_original)
 
 
 #then we'll run this on each of our grange blocks
