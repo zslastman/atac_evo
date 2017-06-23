@@ -50,8 +50,7 @@ install_or_load('BSgenome.Dmelanogaster.UCSC.dm3')
 install_or_load('stringr')
 install_or_load('checkmate')
 install_or_load('tidyverse')
-
-
+install_or_load('magrittr')
 
 # #clear objects
 # rm(list=ls())
@@ -85,6 +84,13 @@ rename = dplyr::rename
 revalue= plyr::revalue
 
 
+file_readme <- function(filename){
+  stopifnot(file.exists(dirname(filename)))
+  stopifnot(file.exists(filename))
+  filename <- tools::file_path_sans_ext(filename)
+  filename <- paste0(filename,'.README.txt')
+  filename
+}
 
 assert_that <- function(x,...){
   predicates <- list(...)

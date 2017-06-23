@@ -74,14 +74,20 @@ message("Loading and processing polymorphism data")
 # -------------------------------------------------------------------------------
 # --------Now run the asymptotic MK test
 # -------------------------------------------------------------------------------
-import('')
-Sys.glob("./scATAC/*bedFiles/*byTissue*/*byPeaks*")
-Sys.glob("./scATAC/*bedFiles/byTissue/byPeaks/*.bed")
 
+#read in all our clusters
+clustergrs <-
+	Sys.glob("data/scATAC/*_bedFiles/byTissue/byPeaks/*.bed") %>%
+	setNames(map(.,import),.)
+
+Sys.glob('/g/furlong/garfield/projects/INSIGHT_analyses/precomputed_blockData/*/neutralSites*') 
+'/g/furlong/garfield/projects/INSIGHT_analyses/precomputed_blockData/50kb_withOverlaps_final_UCSC_ancState/neutralSites'
 #usage
-asym_mk_output <- asymptotic_mk_test(
-	testregion,
-	ctlregion,
+asym_mk_output <- 
+
+clustergrs %>%
+	map(asymptotic_mk_test
+	ctlregion = 
 	sites_gr=insight_polysights
 	) %>% 
 	select(model,a,b,c,CI_low,CI_high,alpha_original)
