@@ -9,6 +9,7 @@ data:
   validSites: "/g/furlong/garfield/projects/INSIGHT_analyses/valid_sites_file/validSites.txt"
   validSitesgff: "data/validSites.gff3"
   daf_results_folder: "./data/scATAC/daf_results/"
+  dviergencesbed: "data/divergences.bed"
 
 results:
     input_metadata: './results/2017_6_19/input_file_metadata.txt'

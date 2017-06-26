@@ -66,4 +66,4 @@ divergences <-
 
 divergences %<>% {GRanges(.$V1,IRanges(as.numeric(.$V2),w=1))}
 
-divergences %>% export(config$data$divergences)
+divergences %>% export(config$data$dviergencesbed)
