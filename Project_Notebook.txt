@@ -45,3 +45,19 @@ sudo sshfs -o allow_other,defer_permissions,workaround=rename harnett@spinoza:/g
 Build systems of course not working now, but what can you do.
 
 More problems
+
+June 27th
+Okay so after some emails I've realised that the procedure I need to use for the DAF test is:
+ the procedure i will need to use is this:
+
+1) Take a given set of peaks - e.g. all those expressed in 1 tissue
+2) Overlap them with the blocks defined in the ‘genomicLocations’ files to find out which blocks I need to look at for that set of peaks
+3) using that list of blocks - select the correct set of files from the ‘neutralSites’ folder
+4) get the (possibly redundant) list of all sites counted for those blocks
+5) filter duplicates from that list, and bin it by DAF.
+
+
+
+July 03
+So I'm now printing the asymettric MK plots and additional stats like divergence and polymorphism, hopefully this will shed some light on whats generating the trend in Rho
+

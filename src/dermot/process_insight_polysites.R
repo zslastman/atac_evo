@@ -109,6 +109,6 @@ neutral_polymorphisms  %<>%
 	select(block,site,daf)  %>% 
 	mutate(block = str_replace(block,'.neutral.*',''))
 
-neutral_divergences %>% write_tsv(config$data$neutral_divergences)
+neutral_divergences %>% export(format='gff3',config$data$neutral_divergences)
 neutral_polymorphisms %>% write_tsv(config$data$neutral_polymorphisms)
 

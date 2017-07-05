@@ -9,7 +9,9 @@ data:
   validSites: "/g/furlong/garfield/projects/INSIGHT_analyses/valid_sites_file/validSites.txt"
   validSitesgff: "data/validSites.gff3"
   daf_results_folder: "./data/scATAC/daf_results/"
-  dviergencesbed: "data/divergences.bed"
+  divergencesbed: "data/divergences.bed"
+  neutral_divergences: "data/neutral_divergences.gff3"
+  neutral_polymorphisms: "data/neutral_polymorphisms.txt"
 
 results:
     input_metadata: './results/2017_6_19/input_file_metadata.txt'
@@ -22,3 +24,5 @@ plots:
   mut_cluster_plot: 'results/2017_6_19/plots/mut_cluster_plot.pdf'
   clustcount_daf_plots: "results/2017_6_23/clustcount_daf_plots.pdf"
   per_cluster_daf_plots: "results/2017_6_23/per_cluster_daf_plots.pdf"
+  mk_stat_plots: "results/2017_7_03/mk_polystat_plots.pdf"
+  asym_mk_plots: "results/2017_7_03/asym_mk_plots.pdf"
